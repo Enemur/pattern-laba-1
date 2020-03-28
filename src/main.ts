@@ -522,7 +522,15 @@ function gunHandler(gun: IGun): void {
   gun.fire();
 }
 
+function printAbout() {
+  console.log('Ametov Pavel Sergeevich');
+  console.log('8-N3O-402B-16');
+  console.log('Laba #1\n');
+}
+
 export function main() {
+  printAbout();
+
   const factory: IFactory = GunFactory.getInstance();
 
   for (const gun of Object.values(Gun)) {
