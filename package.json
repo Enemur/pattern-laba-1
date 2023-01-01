@@ -10,7 +10,7 @@
     "typescript": "^3.8.2",
     "ts-node": "^8.3.0",
     "rimraf": "2.6.3",
-    "tsconfig-paths": "3.8.0",
+    "tsconfig-paths": "3.10.1",
     "@types/node": "^12.7.1"
   }
 }
